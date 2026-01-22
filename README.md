@@ -1,4 +1,4 @@
-# D&D Character Creator (OOP + GUI-ready)
+# D&D Character Creator (OOP + GUI)
 
 A Python project focused on **Object-Oriented Programming** fundamentals, using a *Dungeons & Dragons 5e* character creation system as the domain.  
 

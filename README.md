@@ -5,6 +5,6 @@ A Python project focused on **Object-Oriented Programming** fundamentals, using 
 
 ## Project Goals 🚀
 
--Practice real **OOP** concepts (not just classes)
--Model a real-world domain (D&D 5e rules)
--Keep logic independent from **UI** (GUI-friendly design)
+- Practice real **OOP** concepts (not just classes)
+- Model a real-world domain (D&D 5e rules)
+- Keep logic independent from **UI** (GUI-friendly design)

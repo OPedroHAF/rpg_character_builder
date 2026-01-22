@@ -8,7 +8,7 @@ class AbilityScores:
             wisdom = 10,
             charisma = 10
     ):
-        self.stength = strength
+        self.strength = strength
         self.dexterity = dexterity
         self.constitution = constitution
         self.intelligence = intelligence

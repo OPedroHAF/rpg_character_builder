@@ -1,5 +1,5 @@
 from app.character import Character
-from app.races import (Human, Elf)
+from app.races import (Human, Elf, RACES_REGISTRY)
 from app.classes import (Fighter, Wizard)
 
 class Application:
@@ -10,11 +10,8 @@ class Application:
         self.character = Character(name)
 
     def set_race(self, race_name):
-        races = {
-            "Human": Human,
-            "Elf": Elf
-        }
-        self.character.race = races[race_name]()
+        
+        self.character.race = RACES_REGISTRY[race_name]()
         self.character.race.apply_bonus(self.character.ability_scores)
 
     def set_class(self, class_name):

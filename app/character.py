@@ -1,5 +1,6 @@
 from app.ability_scores import AbilityScores
 
+
 class Character:
     def __init__(self, name: str):
         self.name = name
